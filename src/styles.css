@@ -1,4 +1,63 @@
 .App {
-  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cdn.wallpapersafari.com/14/14/LK0gV3.jpg);
+  background-color: #2d2d2d;
+  background-blend-mode: soft-light;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  color: white;
   text-align: center;
+  font-size: 35px;
+  font-family: "Londrina Solid", cursive;
+}
+
+.meme-template {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  font-family: "Londrina Solid", cursive;
+}
+
+.image-template {
+  width: 100%;
+  width: 500px;
+}
+
+.top-text,
+.bottom-text {
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  color: #dedcdc;
+  font-size: 35px;
+  text-shadow: 3px 3px 4px #000;
+  width: 500px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.top-text {
+  top: 0;
+}
+
+.bottom-text {
+  bottom: 0;
+}
+
+.form-input {
+  width: 490px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
